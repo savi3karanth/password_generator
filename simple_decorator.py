@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "hello"
+    return "Hello World"
 
 #Different route using the app.route decorator
 @app.route("/bye")
